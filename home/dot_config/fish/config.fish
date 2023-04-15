@@ -5,7 +5,12 @@ if status is-interactive
     # fzf_configure_bindings --git_status=\cG --history=\cr --git_log=\cL --processes=\cP --directory=\cO
 
     # git aliases
-    abbr -a gco git checkout
+    abbr gco git checkout
+    abbr gcm --set-cursor=! "git commit -m '!'"
+    abbr "??" github-copilot-cli what-the-shell
+    abbr "git?" github-copilot-cli git-assist
+    abbr "gh?" github-copilot-cli gh-assist
+
 end
 
 starship init fish | source
