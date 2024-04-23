@@ -7,9 +7,8 @@ if status is-interactive
     # git aliases
     abbr gco git checkout
     abbr gcm --set-cursor=! "git commit -m '!'"
-    abbr "??" github-copilot-cli what-the-shell
-    abbr "git?" github-copilot-cli git-assist
-    abbr "gh?" github-copilot-cli gh-assist
+    abbr "??" --set-cursor=! 'gh copilot explain "!"'
+    abbr "ghc" gh copilot
 
 end
 
