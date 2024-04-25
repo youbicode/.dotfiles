@@ -1103,5 +1103,6 @@
       "type": "command",
       "command": "workbench.action.toggleZenMode"
     }
-  ]
+  ],
+  "workbench.sideBar.location": "right"
 }
